@@ -1,0 +1,42 @@
+.concept {
+    height: 950px;
+    background-color: #C0C0C0;
+
+    @include overTab {
+        height: 650px;
+    }
+
+    @media screen and (min-width: 1000px) {
+        height: 500px;
+    }
+
+    .concept-wrap {
+        margin-top: 30px;
+
+        @include overTab {
+            display: flex;
+        }
+    }
+
+    .concept-item {
+        text-align: center;
+        margin: 20px 50px;
+        padding-bottom: 30px;
+
+        @include overTab {
+            width: 350px;
+        }
+    }
+
+    .top {
+        font-size: 3.5em;
+    }
+    .top-title {
+        font-size: 26px;
+        padding-bottom: 20px;
+    }
+    .under {
+        text-align: left;
+        font-size: 18px;
+    }
+}

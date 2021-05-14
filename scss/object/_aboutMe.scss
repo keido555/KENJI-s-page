@@ -1,0 +1,117 @@
+.aboutme {
+    height: 1200px;
+    margin-top: 70px;
+    z-index: 2;
+
+    @include overTab {
+        height: 800px;
+    }
+
+    .personal {
+        height: 1200px;
+        width: 100%;
+        text-align: center;
+        z-index: 2;
+
+        @include overTab {
+            display: flex;
+            justify-content: space-around;
+            height: 600px;
+            margin: 30px;
+            position: relative;
+        }
+    }
+
+    .myimg {
+        height: 500px;
+        width: 360px;
+        border-radius: 90%;
+
+        @include overTab {
+            height: 80%;
+            margin-left: 70px;
+            margin-top: 40px;
+        }
+    }
+
+    .sentence {
+        height: 700px;
+        margin: 20px;
+
+        @include overTab {
+            height: 550px;
+            margin: 30px 20px 20px 50px;
+        }
+
+        .info {
+            height: 250px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+            @include overTab {
+                height: 200px;
+            }
+        }
+
+        .edu {
+            height: 250px;
+            margin-top: 50px;
+            margin-bottom: 20px;
+
+            @include overTab {
+                height: 200px;
+            }
+        }
+
+        .sen-title {
+            font-size: 28px;
+        }
+
+        .sen-sub {
+            font-size: 18px;
+            line-height: 30px;
+            text-align: left;
+            margin: 10px auto;
+            padding: 15px;
+            background: #c6e4ff;
+            border-bottom: solid 6px #aac5de;
+            border-radius: 9px;
+            .font_color {
+                color: red;
+            }
+
+            @include overTab {
+                width: 500px;
+            }
+        }
+    }
+}
+
+.sircle {
+    height: 10px;
+    z-index: 1;
+    .border-radius {
+        @media screen and (min-width: 768px) {
+            width: 550px;
+            height: 550px;
+            line-height: 200px;
+            background: radial-gradient(#FFFDE5, #F4E800);
+            border-radius: 50%;
+            position: relative;
+            left: 120px;
+            bottom: 750px;
+            text-align: center;
+        }
+        @media screen and (min-width: 1000px) {
+            width: 700px;
+            height: 700px;
+            line-height: 200px;
+            background: radial-gradient(#FFFDE5, #F4E800);
+            border-radius: 50%;
+            position: relative;
+            bottom: 800px;
+            left: 350px;
+            text-align: center;
+        }
+    }
+}

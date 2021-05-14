@@ -1,0 +1,88 @@
+.service {
+    height: 900px;
+    background-color: #C0C0C0;
+    justify-content: space-between;
+    @include overTab {
+        display: flex;
+        flex-flow: column wrap-reverse;
+        height: 600px;
+    }
+
+    .service-wrap {
+        padding-top: 50px;
+        position: relative;
+        z-index: 3;
+        @include overTab {
+            display: flex;
+            flex-flow: column wrap-reverse;
+        }
+    }
+
+    .service-under {
+        text-align: center;
+        position: relative;
+        margin-left: 30px;
+    }
+
+    .service-item {
+        display: flex;
+        font-size: 22px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        position: relative;
+        z-index: 3;
+        main {
+            margin-left: 40px;
+            margin-right: 20px;
+        }
+        sub {
+            margin-left: 40px;
+        }
+    }
+
+    .service-img {
+        height: 355px;
+        width: 500px;
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-left: 50px;
+        position: relative;
+        z-index: 3;
+
+        @include overTab {
+            height: 400px;
+            width: 550px;
+        }
+    }
+}
+
+.squ{
+    height: 0px;
+
+    .square {
+        position: relative;
+        height: 400px;
+        width: 400px;
+        background: linear-gradient(to bottom, #FFFDE5, #F4E800);
+        opacity: 0.8;
+        z-index: 1;
+        transform: rotate(-35deg);
+        top: -780px;
+        left: 100px;
+
+        @include overTab {
+            top: -490px;
+        }
+
+        @media screen and (min-width: 900px) {
+            top: -500px;
+            left: 500px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            top: -500px;
+            left: 850px;
+            transform: rotate(-32deg);
+        }
+    }
+}

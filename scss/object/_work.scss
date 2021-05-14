@@ -1,0 +1,38 @@
+.work {
+    height: 1570px;
+    @include overTab {
+        height: 650px;
+    }
+
+    .work-wrap {
+        height: 1300px;
+        text-align: center;
+        justify-content: center;
+        padding-top: 20px;
+
+        @include overTab {
+            display: flex;
+            height: 500px;
+        }
+    }
+
+    .work-item {
+        margin-top: 20px;
+        .title {
+            font-size: 20px;
+        }
+        .work-sub {
+            font-size: 16px;
+        }
+    }
+
+    .work-img {
+        height: 400px;
+        width: 280px;
+        margin: auto;
+    }
+
+    .work-img:hover {
+        opacity: 0.8;
+    }
+}

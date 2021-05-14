@@ -1,0 +1,57 @@
+.flow {
+    height: 700px;
+
+    .flow-wrap {
+        background-image: url(../../img/P5110353.JPG);
+        background-size: cover;
+        height: 600px;
+        @include overTab {
+            height: 520px;
+        }
+    }
+
+    .flow-item {
+        padding-top: 50px;
+        opacity: 1;
+        padding-left: 30px;
+        @include overTab {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    main {
+        opacity: 1;
+        font-size: 22px;
+    }
+
+    sub {
+        @include overTab {
+            margin-right: 50px;
+            width: 500px;
+        }
+    }
+
+    .arrow{
+        position: relative;
+        display: inline-block;
+        padding-left: 70px;
+    }
+
+    .arrow::before{
+        content: '';
+        width: 15px;
+        height: 15px;
+        border: 0px;
+        border-top: solid 2px #000;
+        border-right: solid 2px #000;
+        -ms-transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transform: rotate(135deg);
+        position: absolute;
+        top: 50%;
+        left: 0;
+        margin-top: -4px;
+        margin-left: 80px;
+    }
+}

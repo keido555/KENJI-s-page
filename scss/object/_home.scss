@@ -1,0 +1,72 @@
+.home {
+    background-image: url(../../img/pc.jpeg);
+    background-color: rgba(255, 255, 255, 0.4);
+    background-blend-mode:lighten;
+    background-position: center;
+    background-size: cover;
+    margin-top: 80px;
+    height: 650px;
+    position: relative;
+
+    @include overTab {
+        background-image: url(../../img/4832753_m.jpg);
+        background-color: rgba(255, 255, 255, 0.4);
+        background-blend-mode:lighten;
+        background-position: right;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        margin-top: 80px;
+        height: 700px;
+    }
+
+    .home-title {
+        padding-top: 100px;
+        padding-left: 20px;
+        height: 420px;
+
+        @include overTab {
+            padding-top: 50px;
+            padding-left: 50px;
+        }
+
+        .main {
+            font-size: 36px;
+
+            @include overTab {
+                font-size: 56px;
+            }
+        }
+        .sub {
+            padding-top: 20px;
+            font-size: 22px;
+
+            @include overTab {
+                font-size: 28px;
+            }
+        }
+    }
+
+    .home-link {
+        display: inline-block;
+        margin-left: 100px;
+        a.contact-btn {
+            color: black;
+            background-color: #FFF72C;
+            border-bottom: solid 6px #C1B800;
+            display: flex;
+            width: 230px;
+            height: 50px;
+            align-items: center;
+            justify-content: center;
+            border-radius: 18px;
+            font-size: 20px;
+            
+        }
+        a.contact-btn:hover {
+            margin-top: 3px;
+            color: black;
+            background: #FFF65B;
+            border-bottom: 2px solid #C1B800;
+        }
+    }
+}
