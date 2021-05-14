@@ -235,7 +235,7 @@ header .header-list a {
 }
 
 .home {
-  background-image: url(../img/pc.jpeg);
+  background-image: url(../../img/pc.jpeg);
   background-color: rgba(255, 255, 255, 0.4);
   background-blend-mode: lighten;
   background-position: center;
@@ -247,14 +247,15 @@ header .header-list a {
 
 @media print, screen and (min-width: 768px) {
   .home {
-    background-image: url(../img/4832753_m.jpg);
-    background-color: rgba(255, 255, 255, 0.4);
+    background-image: url(../../img/4832753_m.jpg);
+    background-color: rgba(255, 255, 255, 0.6);
     background-blend-mode: lighten;
     background-position: right;
     background-size: 90%;
     background-repeat: no-repeat;
     margin-top: 80px;
     height: 700px;
+    color: #000;
   }
 }
 
@@ -663,7 +664,7 @@ header .header-list a {
 }
 
 .flow .flow-wrap {
-  background-image: url(../img/P5110353.JPG);
+  background-image: url(../../img/P5110353.JPG);
   background-size: cover;
   height: 600px;
 }

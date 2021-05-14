@@ -10,13 +10,14 @@
 
     @include overTab {
         background-image: url(../../img/4832753_m.jpg);
-        background-color: rgba(255, 255, 255, 0.4);
+        background-color: rgba(255, 255, 255, 0.6);
         background-blend-mode:lighten;
         background-position: right;
         background-size: 90%;
         background-repeat: no-repeat;
         margin-top: 80px;
         height: 700px;
+        color: #000;
     }
 
     .home-title {
