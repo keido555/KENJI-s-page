@@ -41,8 +41,8 @@
     }
 
     .service-img {
-        height: 355px;
-        width: 500px;
+        height: 200px;
+        width: 300px;
         border-radius: 20px;
         margin-top: 50px;
         margin-left: 50px;
@@ -61,8 +61,8 @@
 
     .square {
         position: relative;
-        height: 400px;
-        width: 400px;
+        height: 200px;
+        width: 200px;
         background: linear-gradient(to bottom, #FFFDE5, #F4E800);
         opacity: 0.8;
         z-index: 1;
@@ -71,6 +71,8 @@
         left: 100px;
 
         @include overTab {
+            height: 400px;
+            width: 400px;
             top: -490px;
         }
 

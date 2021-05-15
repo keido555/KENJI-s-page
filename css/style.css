@@ -456,7 +456,7 @@ header .header-list a {
 }
 
 .concept {
-  height: 950px;
+  height: 965px;
   background-color: #C0C0C0;
 }
 
@@ -606,8 +606,8 @@ header .header-list a {
 }
 
 .service .service-img {
-  height: 355px;
-  width: 500px;
+  height: 200px;
+  width: 300px;
   border-radius: 20px;
   margin-top: 50px;
   margin-left: 50px;
@@ -628,8 +628,8 @@ header .header-list a {
 
 .squ .square {
   position: relative;
-  height: 400px;
-  width: 400px;
+  height: 200px;
+  width: 200px;
   background: linear-gradient(to bottom, #FFFDE5, #F4E800);
   opacity: 0.8;
   z-index: 1;
@@ -640,6 +640,8 @@ header .header-list a {
 
 @media print, screen and (min-width: 768px) {
   .squ .square {
+    height: 400px;
+    width: 400px;
     top: -490px;
   }
 }
@@ -660,17 +662,25 @@ header .header-list a {
 }
 
 .flow {
-  height: 700px;
+  height: 750px;
+}
+
+@media print, screen and (min-width: 768px) {
+  .flow {
+    height: 700px;
+  }
 }
 
 .flow .flow-wrap {
-  background-image: url(../img/P5110353.JPG);
+  background-image: url(../img/Cafe1.png);
   background-size: cover;
-  height: 600px;
+  height: 660px;
 }
 
 @media print, screen and (min-width: 768px) {
   .flow .flow-wrap {
+    background-image: url(../img/P5110353.JPG);
+    background-size: cover;
     height: 520px;
   }
 }
