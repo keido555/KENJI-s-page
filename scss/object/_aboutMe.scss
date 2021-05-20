@@ -1,7 +1,11 @@
 .aboutme {
-    height: 1200px;
+    height: 1300px;
     margin-top: 70px;
     z-index: 2;
+
+    @media screen and (min-width: 400px) {
+        height: 1200px;
+    }
 
     @include overTab {
         height: 800px;
@@ -91,7 +95,7 @@
     height: 10px;
     z-index: 1;
     .border-radius {
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: 769px) {
             width: 550px;
             height: 550px;
             line-height: 200px;

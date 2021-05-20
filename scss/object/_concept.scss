@@ -1,6 +1,10 @@
 .concept {
-    height: 965px;
+    height: 1050px;
     background-color: #C0C0C0;
+
+    @media screen and (min-width: 400px) {
+        height: 965px;
+    }
 
     @include overTab {
         height: 650px;

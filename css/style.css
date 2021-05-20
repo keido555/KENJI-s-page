@@ -42,7 +42,7 @@ img {
   text-transform: capitalize;
 }
 
-@media print, screen and (min-width: 768px) {
+@media print, screen and (min-width: 769px) {
   .cmn-title .sub {
     margin-top: 25px;
   }
@@ -102,7 +102,7 @@ header .nav-btn {
   right: 30px;
 }
 
-@media print, screen and (min-width: 768px) {
+@media print, screen and (min-width: 769px) {
   header .nav-btn {
     display: none;
   }
@@ -164,7 +164,7 @@ header .nav {
   transition: opacity 0.3s ease;
 }
 
-@media print, screen and (min-width: 768px) {
+@media print, screen and (min-width: 769px) {
   header .nav {
     width: initial;
     background-color: transparent;
@@ -190,7 +190,7 @@ header .header-list {
   padding-bottom: 45px;
 }
 
-@media print, screen and (min-width: 768px) {
+@media print, screen and (min-width: 769px) {
   header .header-list {
     display: flex;
     margin-right: 40px;
@@ -202,7 +202,7 @@ header .header-list .item + .item {
   margin-top: 20px;
 }
 
-@media print, screen and (min-width: 768px) {
+@media print, screen and (min-width: 769px) {
   header .header-list .item + .item {
     margin-top: 0;
     margin-left: 20px;
@@ -214,7 +214,7 @@ header .header-list a {
   font-size: 24px;
 }
 
-@media print, screen and (min-width: 768px) {
+@media print, screen and (min-width: 769px) {
   header .header-list a {
     font-size: 18px;
     color: black;
@@ -245,7 +245,7 @@ header .header-list a {
   position: relative;
 }
 
-@media print, screen and (min-width: 768px) {
+@media print, screen and (min-width: 769px) {
   .home {
     background-image: url(../img/4832753_m.jpg);
     background-color: rgba(255, 255, 255, 0.6);
@@ -265,7 +265,7 @@ header .header-list a {
   height: 420px;
 }
 
-@media print, screen and (min-width: 768px) {
+@media print, screen and (min-width: 769px) {
   .home .home-title {
     padding-top: 50px;
     padding-left: 50px;
@@ -276,7 +276,7 @@ header .header-list a {
   font-size: 36px;
 }
 
-@media print, screen and (min-width: 768px) {
+@media print, screen and (min-width: 769px) {
   .home .home-title .main {
     font-size: 56px;
   }
@@ -287,7 +287,7 @@ header .header-list a {
   font-size: 22px;
 }
 
-@media print, screen and (min-width: 768px) {
+@media print, screen and (min-width: 769px) {
   .home .home-title .sub {
     font-size: 28px;
   }
@@ -319,12 +319,18 @@ header .header-list a {
 }
 
 .aboutme {
-  height: 1200px;
+  height: 1300px;
   margin-top: 70px;
   z-index: 2;
 }
 
-@media print, screen and (min-width: 768px) {
+@media screen and (min-width: 400px) {
+  .aboutme {
+    height: 1200px;
+  }
+}
+
+@media print, screen and (min-width: 769px) {
   .aboutme {
     height: 800px;
   }
@@ -337,7 +343,7 @@ header .header-list a {
   z-index: 2;
 }
 
-@media print, screen and (min-width: 768px) {
+@media print, screen and (min-width: 769px) {
   .aboutme .personal {
     display: flex;
     justify-content: space-around;
@@ -353,7 +359,7 @@ header .header-list a {
   border-radius: 90%;
 }
 
-@media print, screen and (min-width: 768px) {
+@media print, screen and (min-width: 769px) {
   .aboutme .myimg {
     height: 80%;
     margin-left: 70px;
@@ -366,7 +372,7 @@ header .header-list a {
   margin: 20px;
 }
 
-@media print, screen and (min-width: 768px) {
+@media print, screen and (min-width: 769px) {
   .aboutme .sentence {
     height: 550px;
     margin: 30px 20px 20px 50px;
@@ -379,7 +385,7 @@ header .header-list a {
   margin-bottom: 20px;
 }
 
-@media print, screen and (min-width: 768px) {
+@media print, screen and (min-width: 769px) {
   .aboutme .sentence .info {
     height: 200px;
   }
@@ -391,7 +397,7 @@ header .header-list a {
   margin-bottom: 20px;
 }
 
-@media print, screen and (min-width: 768px) {
+@media print, screen and (min-width: 769px) {
   .aboutme .sentence .edu {
     height: 200px;
   }
@@ -416,7 +422,7 @@ header .header-list a {
   color: red;
 }
 
-@media print, screen and (min-width: 768px) {
+@media print, screen and (min-width: 769px) {
   .aboutme .sentence .sen-sub {
     width: 500px;
   }
@@ -427,7 +433,7 @@ header .header-list a {
   z-index: 1;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .sircle .border-radius {
     width: 550px;
     height: 550px;
@@ -456,11 +462,17 @@ header .header-list a {
 }
 
 .concept {
-  height: 965px;
+  height: 1050px;
   background-color: #C0C0C0;
 }
 
-@media print, screen and (min-width: 768px) {
+@media screen and (min-width: 400px) {
+  .concept {
+    height: 965px;
+  }
+}
+
+@media print, screen and (min-width: 769px) {
   .concept {
     height: 650px;
   }
@@ -476,7 +488,7 @@ header .header-list a {
   margin-top: 30px;
 }
 
-@media print, screen and (min-width: 768px) {
+@media print, screen and (min-width: 769px) {
   .concept .concept-wrap {
     display: flex;
   }
@@ -488,7 +500,7 @@ header .header-list a {
   padding-bottom: 30px;
 }
 
-@media print, screen and (min-width: 768px) {
+@media print, screen and (min-width: 769px) {
   .concept .concept-item {
     width: 350px;
   }
@@ -512,7 +524,7 @@ header .header-list a {
   height: 1570px;
 }
 
-@media print, screen and (min-width: 768px) {
+@media print, screen and (min-width: 769px) {
   .work {
     height: 650px;
   }
@@ -525,7 +537,7 @@ header .header-list a {
   padding-top: 20px;
 }
 
-@media print, screen and (min-width: 768px) {
+@media print, screen and (min-width: 769px) {
   .work .work-wrap {
     display: flex;
     height: 500px;
@@ -555,12 +567,12 @@ header .header-list a {
 }
 
 .service {
-  height: 900px;
+  height: 700px;
   background-color: #C0C0C0;
   justify-content: space-between;
 }
 
-@media print, screen and (min-width: 768px) {
+@media print, screen and (min-width: 769px) {
   .service {
     display: flex;
     flex-flow: column wrap-reverse;
@@ -574,7 +586,7 @@ header .header-list a {
   z-index: 3;
 }
 
-@media print, screen and (min-width: 768px) {
+@media print, screen and (min-width: 769px) {
   .service .service-wrap {
     display: flex;
     flex-flow: column wrap-reverse;
@@ -584,7 +596,12 @@ header .header-list a {
 .service .service-under {
   text-align: center;
   position: relative;
-  margin-left: 30px;
+}
+
+@media screen and (min-width: 500px) {
+  .service .service-under {
+    margin-left: 30px;
+  }
 }
 
 .service .service-item {
@@ -596,13 +613,29 @@ header .header-list a {
   z-index: 3;
 }
 
-.service .service-item main {
-  margin-left: 40px;
-  margin-right: 20px;
+@media screen and (min-width: 400px) {
+  .service .service-item main {
+    margin-left: 20px;
+  }
 }
 
-.service .service-item sub {
-  margin-left: 40px;
+@media screen and (min-width: 500px) {
+  .service .service-item main {
+    margin-left: 40px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .service .service-item sub {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .service .service-item sub {
+    margin-left: 40px;
+  }
 }
 
 .service .service-img {
@@ -615,7 +648,7 @@ header .header-list a {
   z-index: 3;
 }
 
-@media print, screen and (min-width: 768px) {
+@media print, screen and (min-width: 769px) {
   .service .service-img {
     height: 400px;
     width: 550px;
@@ -634,11 +667,11 @@ header .header-list a {
   opacity: 0.8;
   z-index: 1;
   transform: rotate(-35deg);
-  top: -780px;
+  top: -480px;
   left: 100px;
 }
 
-@media print, screen and (min-width: 768px) {
+@media print, screen and (min-width: 769px) {
   .squ .square {
     height: 400px;
     width: 400px;
@@ -665,7 +698,7 @@ header .header-list a {
   height: 750px;
 }
 
-@media print, screen and (min-width: 768px) {
+@media print, screen and (min-width: 769px) {
   .flow {
     height: 700px;
   }
@@ -677,7 +710,7 @@ header .header-list a {
   height: 660px;
 }
 
-@media print, screen and (min-width: 768px) {
+@media print, screen and (min-width: 769px) {
   .flow .flow-wrap {
     background-image: url(../img/P5110353.JPG);
     background-size: cover;
@@ -691,7 +724,7 @@ header .header-list a {
   padding-left: 30px;
 }
 
-@media print, screen and (min-width: 768px) {
+@media print, screen and (min-width: 769px) {
   .flow .flow-item {
     display: flex;
     justify-content: space-between;
@@ -703,7 +736,7 @@ header .header-list a {
   font-size: 22px;
 }
 
-@media print, screen and (min-width: 768px) {
+@media print, screen and (min-width: 769px) {
   .flow sub {
     margin-right: 50px;
     width: 500px;
@@ -797,7 +830,7 @@ header .header-list a {
   width: 240px;
 }
 
-@media print, screen and (min-width: 768px) {
+@media print, screen and (min-width: 769px) {
   .contact .img-dog .dog {
     display: inline;
     top: -360px;
