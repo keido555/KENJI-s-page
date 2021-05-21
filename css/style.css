@@ -611,6 +611,7 @@ header .header-list a {
   margin-bottom: 20px;
   position: relative;
   z-index: 3;
+  margin-left: 10px;
 }
 
 @media screen and (min-width: 400px) {
@@ -624,6 +625,10 @@ header .header-list a {
     margin-left: 40px;
     margin-right: 20px;
   }
+}
+
+.service .service-item sub {
+  margin-left: 10px;
 }
 
 @media screen and (min-width: 400px) {
@@ -695,7 +700,7 @@ header .header-list a {
 }
 
 .flow {
-  height: 750px;
+  height: 770px;
 }
 
 @media print, screen and (min-width: 769px) {
