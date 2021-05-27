@@ -734,12 +734,12 @@ header .header-list a {
   }
 }
 
-.help h4 {
+.help h2 {
   justify-content: center;
   text-align: center;
   font-size: 22px;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .help .help-wrap {
@@ -759,7 +759,7 @@ header .header-list a {
 }
 
 .help .help-intro {
-  width: 75%;
+  width: 85%;
   margin: 0 auto;
 }
 
