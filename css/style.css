@@ -225,7 +225,30 @@ header .header-list a {
 .footer {
   background-color: black;
   color: white;
-  height: 120px;
+}
+
+.footer h1 {
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 36px;
+  padding-top: 20px;
+}
+
+.footer .footer-list {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer .footer-list .footer-item {
+  margin: 0 20px;
+}
+
+.footer .footer-list a {
+  color: white;
+  font-size: 20px;
 }
 
 .footer .copyright {
@@ -233,6 +256,7 @@ header .header-list a {
   text-align: center;
   top: 75%;
   font-size: smaller;
+  padding-bottom: 10px;
 }
 
 .home {

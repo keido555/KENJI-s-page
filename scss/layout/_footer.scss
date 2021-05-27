@@ -1,11 +1,36 @@
 .footer {
     background-color: black;
     color: white;
-    height: 120px;
+
+    h1 {
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 36px;
+        padding-top: 20px;
+    }
+
+    .footer-list {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        .footer-item {
+            margin: 0 20px;
+        }
+
+        a {
+            color: white;
+            font-size: 20px;
+        }
+    }
+
     .copyright {
         position: relative;
         text-align: center;
         top: 75%;
         font-size: smaller;
+        padding-bottom: 10px;
     }
 }
