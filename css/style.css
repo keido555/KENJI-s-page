@@ -809,12 +809,12 @@ header .header-list a {
 .contact .contact-icons {
   display: flex;
   position: relative;
-  text-align: center;
   justify-content: center;
   margin-top: 20px;
 }
 
 .contact .contact-icons ul {
+  display: flex;
   margin-top: 20px;
   font-size: 3.5em;
 }
