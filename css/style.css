@@ -242,13 +242,17 @@ header .header-list a {
   padding-bottom: 20px;
 }
 
-.footer .footer-list .footer-item {
-  margin: 0 20px;
+@media print, screen and (min-width: 769px) {
+  .footer .footer-list .footer-item {
+    margin: 0 20px;
+  }
 }
 
-.footer .footer-list a {
-  color: white;
-  font-size: 20px;
+@media print, screen and (min-width: 769px) {
+  .footer .footer-list a {
+    color: white;
+    font-size: 20px;
+  }
 }
 
 .footer .copyright {
@@ -730,12 +734,12 @@ header .header-list a {
   }
 }
 
-.help h2 {
+.help h4 {
   justify-content: center;
   text-align: center;
   font-size: 22px;
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .help .help-wrap {

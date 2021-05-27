@@ -17,12 +17,16 @@
         padding-bottom: 20px;
 
         .footer-item {
-            margin: 0 20px;
+            @include overTab {
+                margin: 0 20px;
+            }
         }
 
         a {
-            color: white;
-            font-size: 20px;
+            @include overTab {
+                color: white;
+                font-size: 20px;
+            }
         }
     }
 
