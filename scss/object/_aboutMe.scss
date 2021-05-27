@@ -59,8 +59,12 @@
 
         .edu {
             height: 250px;
-            margin-top: 50px;
+            margin-top: 75px;
             margin-bottom: 20px;
+
+            @media screen and (min-width: 400px) {
+                margin-top: 50px;
+            }
 
             @include overTab {
                 height: 200px;
