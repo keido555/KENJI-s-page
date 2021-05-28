@@ -602,6 +602,11 @@ header .header-list a {
   opacity: 0.8;
 }
 
+.answer {
+  justify-content: center;
+  text-align: center;
+}
+
 .service {
   height: 700px;
   background-color: #C0C0C0;
