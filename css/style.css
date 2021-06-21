@@ -557,12 +557,12 @@ header .header-list a {
 }
 
 .work {
-  height: 1570px;
+  height: 1650px;
 }
 
 @media print, screen and (min-width: 769px) {
   .work {
-    height: 650px;
+    height: 720px;
   }
 }
 
@@ -600,6 +600,42 @@ header .header-list a {
 
 .work .work-img:hover {
   opacity: 0.8;
+}
+
+.work .inner {
+  text-align: center;
+  position: relative;
+  top: 10%;
+}
+
+@media print, screen and (min-width: 769px) {
+  .work .inner {
+    top: 0%;
+  }
+}
+
+.work .work-link {
+  display: inline-block;
+}
+
+.work .work-link a.more-btn {
+  color: black;
+  background-color: #FFF72C;
+  border-bottom: solid 6px #C1B800;
+  display: flex;
+  width: 230px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 20px;
+}
+
+.work .work-link a.more-btn:hover {
+  margin-top: 3px;
+  color: black;
+  background: #FFF65B;
+  border-bottom: 2px solid #C1B800;
 }
 
 .answer {
@@ -1124,5 +1160,87 @@ header .header-list a {
     width: 160px;
     font-size: 16px;
   }
+}
+
+.work2 {
+  margin-top: 80px;
+}
+
+.work2 .work-sentence {
+  text-align: center;
+  margin: 30px auto;
+  font-size: 24px;
+}
+
+.work2 .work-wrap {
+  text-align: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+@media print, screen and (min-width: 769px) {
+  .work2 .work-wrap {
+    display: flex;
+  }
+}
+
+.work2 .work2-wrap {
+  text-align: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+@media print, screen and (min-width: 769px) {
+  .work2 .work2-wrap {
+    display: flex;
+  }
+}
+
+.work2 .work3-wrap {
+  text-align: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+@media print, screen and (min-width: 769px) {
+  .work2 .work3-wrap {
+    display: flex;
+  }
+}
+
+.work2 .work-item {
+  margin: 20px;
+}
+
+.work2 .work-item .title {
+  font-size: 20px;
+}
+
+.work2 .work-item .work-sub {
+  font-size: 16px;
+}
+
+.work2 .work-img {
+  height: 400px;
+  width: 280px;
+  margin: auto;
+}
+
+.work2 .work-img:hover {
+  opacity: 0.8;
+}
+
+.voice {
+  text-align: center;
+}
+
+.voice .coco-site {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.voice p {
+  padding: 20px;
 }
 /*# sourceMappingURL=style.css.map */
