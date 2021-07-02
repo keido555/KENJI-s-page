@@ -39,7 +39,7 @@
         }
         .sub {
             padding-top: 20px;
-            font-size: 22px;
+            font-size: 18px;
 
             @include overTab {
                 font-size: 28px;
@@ -49,7 +49,10 @@
 
     .home-link {
         display: inline-block;
-        margin-left: 100px;
+        margin-left: 50px;
+        @include overTab {
+            margin-left: 100px;
+        }
         a.contact-btn {
             color: black;
             background-color: #FFF72C;

@@ -314,7 +314,7 @@ header .header-list a {
 
 .home .home-title .sub {
   padding-top: 20px;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 @media print, screen and (min-width: 769px) {
@@ -325,7 +325,13 @@ header .header-list a {
 
 .home .home-link {
   display: inline-block;
-  margin-left: 100px;
+  margin-left: 50px;
+}
+
+@media print, screen and (min-width: 769px) {
+  .home .home-link {
+    margin-left: 100px;
+  }
 }
 
 .home .home-link a.contact-btn {
