@@ -986,25 +986,6 @@ header .header-list a {
   padding-left: 25px;
 }
 
-.contact .img-dog {
-  height: 0;
-}
-
-.contact .img-dog .dog {
-  position: relative;
-  display: none;
-  height: 320px;
-  width: 240px;
-}
-
-@media print, screen and (min-width: 769px) {
-  .contact .img-dog .dog {
-    display: inline;
-    top: -360px;
-    right: -300px;
-  }
-}
-
 .Form {
   height: 800px;
   margin-top: 80px;

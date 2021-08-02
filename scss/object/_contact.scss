@@ -50,21 +50,4 @@
             }
         }
     }
-
-    .img-dog {
-        height: 0;
-
-        .dog {
-            position: relative;
-            display: none;
-            height: 320px;
-            width: 240px;
-    
-            @include overTab {
-                display: inline;
-                top: -360px;
-                right: -300px;
-            }
-        }
-    }
 }
