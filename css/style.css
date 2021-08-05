@@ -1230,6 +1230,44 @@ header .header-list a {
   text-align: center;
 }
 
+.voice .man {
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+  .voice .man {
+    margin-top: 20px;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .voice .man .left-img {
+    margin-left: 20px;
+  }
+}
+
+.voice .man .left-img .man-img {
+  margin-top: 20px;
+  width: 30%;
+}
+
+@media screen and (min-width: 800px) {
+  .voice .man .left-img .man-img {
+    width: 50%;
+    margin: 0;
+  }
+}
+
+.voice .man .right-man {
+  text-align: left;
+  border: solid 3px #000;
+  width: 70%;
+  height: 100%;
+  margin: 10px auto;
+}
+
 .voice .coco-site {
   margin-top: 30px;
   text-align: center;

@@ -62,6 +62,40 @@
 .voice {
     text-align: center;
 
+    .man {
+        margin: 0 auto;
+        text-align: center;
+
+        @media screen and (min-width:800px) {
+            margin-top: 20px;
+            display: flex
+        }
+
+        .left-img {
+            @media screen and (min-width:800px) {
+                margin-left: 20px;
+            }
+
+            .man-img {
+                margin-top: 20px;
+                width: 30%;
+
+                @media screen and (min-width:800px) {
+                    width: 50%;
+                    margin: 0;
+                }
+            }
+        }
+
+        .right-man {
+            text-align: left;
+            border: solid 3px #000;
+            width: 70%;
+            height: 100%;
+            margin: 10px auto;
+        }
+    }
+
     .coco-site {
         margin-top: 30px;
         text-align: center;
