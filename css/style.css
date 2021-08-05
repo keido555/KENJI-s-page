@@ -384,7 +384,6 @@ header .header-list a {
     display: flex;
     justify-content: space-around;
     height: 600px;
-    margin: 30px 0;
     position: relative;
   }
 }
@@ -397,9 +396,9 @@ header .header-list a {
 
 @media print, screen and (min-width: 769px) {
   .aboutme .myimg {
-    height: 80%;
+    height: 70%;
     margin-left: 70px;
-    margin-top: 40px;
+    margin-top: 50px;
   }
 }
 
