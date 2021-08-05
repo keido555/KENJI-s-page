@@ -1163,6 +1163,27 @@ header .header-list a {
 
 .work2 {
   margin-top: 80px;
+  /*
+    .work2-wrap {
+        text-align: center;
+        justify-content: center;
+        padding-top: 20px;
+
+        @include overTab {
+            display: flex;
+        }
+    }
+
+    .work3-wrap {
+        text-align: center;
+        justify-content: center;
+        padding-top: 20px;
+
+        @include overTab {
+            display: flex;
+        }
+    }
+*/
 }
 
 .work2 .work-sentence {
@@ -1179,30 +1200,6 @@ header .header-list a {
 
 @media print, screen and (min-width: 769px) {
   .work2 .work-wrap {
-    display: flex;
-  }
-}
-
-.work2 .work2-wrap {
-  text-align: center;
-  justify-content: center;
-  padding-top: 20px;
-}
-
-@media print, screen and (min-width: 769px) {
-  .work2 .work2-wrap {
-    display: flex;
-  }
-}
-
-.work2 .work3-wrap {
-  text-align: center;
-  justify-content: center;
-  padding-top: 20px;
-}
-
-@media print, screen and (min-width: 769px) {
-  .work2 .work3-wrap {
     display: flex;
   }
 }
