@@ -384,7 +384,7 @@ header .header-list a {
     display: flex;
     justify-content: space-around;
     height: 600px;
-    margin: 30px;
+    margin: 30px 0;
     position: relative;
   }
 }
@@ -498,7 +498,7 @@ header .header-list a {
     border-radius: 50%;
     position: relative;
     bottom: 800px;
-    left: 350px;
+    left: 300px;
     text-align: center;
   }
 }
@@ -650,7 +650,7 @@ header .header-list a {
 }
 
 .service {
-  height: 700px;
+  height: 450px;
   background-color: #C0C0C0;
   justify-content: space-between;
 }
@@ -683,7 +683,13 @@ header .header-list a {
 
 @media screen and (min-width: 500px) {
   .service .service-under {
-    margin-left: 30px;
+    margin-left: 100px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .service .service-under {
+    margin-left: 0px;
   }
 }
 
@@ -734,12 +740,15 @@ header .header-list a {
   margin-left: 50px;
   position: relative;
   z-index: 3;
+  display: none;
 }
 
 @media print, screen and (min-width: 769px) {
   .service .service-img {
     height: 400px;
     width: 550px;
+    display: block;
+    margin-top: 100px;
   }
 }
 
@@ -757,6 +766,7 @@ header .header-list a {
   transform: rotate(-35deg);
   top: -480px;
   left: 100px;
+  display: none;
 }
 
 @media print, screen and (min-width: 769px) {
@@ -764,6 +774,7 @@ header .header-list a {
     height: 400px;
     width: 400px;
     top: -490px;
+    display: none;
   }
 }
 
@@ -771,6 +782,7 @@ header .header-list a {
   .squ .square {
     top: -500px;
     left: 500px;
+    display: block;
   }
 }
 
@@ -779,6 +791,7 @@ header .header-list a {
     top: -500px;
     left: 850px;
     transform: rotate(-32deg);
+    display: block;
   }
 }
 
