@@ -605,6 +605,8 @@ header .header-list a {
 
 .work .work-img:hover {
   opacity: 0.8;
+  transform: scale(1.1, 1.1);
+  transition: 0.5s;
 }
 
 .work .inner {
@@ -1224,6 +1226,8 @@ header .header-list a {
 
 .work2 .work-img:hover {
   opacity: 0.8;
+  transform: scale(1.1, 1.1);
+  transition: 0.5s;
 }
 
 .voice {
